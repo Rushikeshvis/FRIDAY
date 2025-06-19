@@ -9,7 +9,7 @@ import os # Import os module to check for file existence
 # IMPORTANT: Replace 'my_logo.png' with the actual filename of your logo image.
 # Ensure your logo image file is in the same directory as this script.
 LOGO_PATH = 'Friday.png'
-LOGO_WIDTH = 200 # Adjust the width of the logo in pixels as needed
+LOGO_WIDTH = 400 # Adjust the width of the logo in pixels as needed
 # --- End Configuration ---
 
 # Load YOLO model

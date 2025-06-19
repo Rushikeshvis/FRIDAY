@@ -3,6 +3,14 @@ import torch
 from PIL import Image
 import pandas as pd
 from ultralytics import YOLO # Import YOLO from ultralytics
+import os # Import os module to check for file existence
+
+# --- Configuration for Logo ---
+# IMPORTANT: Replace 'my_logo.png' with the actual filename of your logo image.
+# Ensure your logo image file is in the same directory as this script.
+LOGO_PATH = 'Friday.png'
+LOGO_WIDTH = 200 # Adjust the width of the logo in pixels as needed
+# --- End Configuration ---
 
 # Load YOLO model
 # Assuming Yolo11_Best.pt is a model trained with ultralytics framework
@@ -10,7 +18,7 @@ from ultralytics import YOLO # Import YOLO from ultralytics
 try:
     model = YOLO('Yolo11_Best.pt')
 except Exception as e:
-    st.error(f"Error loading YOLO model: {e}. Make sure 'Yolo11_Best.pt' is in the same directory.")
+    st.error(f"Error loading YOLO model: {e}. Make sure 'Yolo11_Best.pt' is in the same directory and is a valid YOLO model file.")
     st.stop() # Stop the app if model loading fails
 
 # Load coral data
@@ -35,7 +43,7 @@ coral_species = [
     'Acropora palmata', 'Acropora prolifera', 'Agaricia fragilis',
     'Agaricia lamarcki', 'Astrea curta', 'Balanophyllia elegans',
     'Bernardpora stutchburyi', 'Blastomussa omanensis', 'Carijoa riisei',
-    'Cladocora arbuscula', 'Cladocora caespitosa', 'Cladocora caespitosa', # Corrected typo based on earlier prompt
+    'Cladocora arbuscula', 'Cladocora caespitosa', 'Cladocora caespitosa',
     'Cladopsammia gracilis', 'Coeloseris mayeri', 'Corallium rubrum', 'Coscinaraea monile',
     'Culicia tenella', 'Cycloseris mokai', 'Cycloseris vaughani',
     'Dendrogyra cylindrus', 'Dendrophyllia ramea', 'Dichocoenia stokesi',
@@ -68,28 +76,24 @@ coral_species = [
 
 
 # Streamlit app
+# Display the logo at the top of the app
+if os.path.exists(LOGO_PATH):
+    st.image(LOGO_PATH, width=LOGO_WIDTH)
+else:
+    st.warning(f"Logo image not found at '{LOGO_PATH}'. Please ensure it's in the same directory as streamlit_app.py.")
+
 st.title('Coral Classification with YOLO11')
 st.markdown("Upload an image of coral for classification.")
 
 uploaded_file = st.file_uploader("Choose an image...", type=['jpg', 'jpeg', 'png'])
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
-    st.image(image, caption='Uploaded Image.', use_container_width=True)
+    st.image(image, caption='Uploaded Image.', use_column_width=True)
     st.write(" ")
     st.write("Classifying...")
 
     # Perform detection
-    # Using model.predict for ultralytics YOLO models
-    # The results object is different from torch.hub.load results.xyxy[0]
     results = model(image) # This runs inference
-    # results object now contains detection information, typically iterable
-
-    # Process results to get bounding boxes, confidence, and class IDs
-    # For a single image, results[0] gives the detections.
-    # .boxes gives you access to the bounding box objects
-    # .boxes.xyxy gives [x1, y1, x2, y2]
-    # .boxes.conf gives confidence scores
-    # .boxes.cls gives class IDs
 
     detected_objects = []
     # Loop through detections for the first (and likely only) image
@@ -123,12 +127,13 @@ if uploaded_file is not None:
         # Display segment of the image
         x1, y1, x2, y2 = best_result['x1'], best_result['y1'], best_result['x2'], best_result['y2']
         cropped_image = image.crop((x1, y1, x2, y2))
-        st.image(cropped_image, caption=f"Detected: {best_result['class_name']}", use_container_width=True)
+        st.image(cropped_image, caption=f"Detected: {best_result['class_name']}", use_column_width=True)
 
         st.subheader("All Detections:")
+        # Sort by confidence in descending order for display
         for i, res in enumerate(sorted(coral_results, key=lambda x: x['confidence'], reverse=True)):
             st.write(f"- **{res['class_name']}** (Confidence: {res['confidence']:.2f})")
-            if i < 5: # Show top 5 cropped images for clarity
+            if i < 5: # Show top 5 cropped images for clarity, adjust as needed
                 img_to_show = image.crop((res['x1'], res['y1'], res['x2'], res['y2']))
                 st.image(img_to_show, width=200) # Smaller image for multiple detections
 

@@ -74,7 +74,7 @@ st.markdown("Upload an image of coral for classification.")
 uploaded_file = st.file_uploader("Choose an image...", type=['jpg', 'jpeg', 'png'])
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
-    st.image(image, caption='Uploaded Image.', use_column_width=True)
+    st.image(image, caption='Uploaded Image.', use_container_width=True)
     st.write(" ")
     st.write("Classifying...")
 
@@ -123,7 +123,7 @@ if uploaded_file is not None:
         # Display segment of the image
         x1, y1, x2, y2 = best_result['x1'], best_result['y1'], best_result['x2'], best_result['y2']
         cropped_image = image.crop((x1, y1, x2, y2))
-        st.image(cropped_image, caption=f"Detected: {best_result['class_name']}", use_column_width=True)
+        st.image(cropped_image, caption=f"Detected: {best_result['class_name']}", use_container_width=True)
 
         st.subheader("All Detections:")
         for i, res in enumerate(sorted(coral_results, key=lambda x: x['confidence'], reverse=True)):

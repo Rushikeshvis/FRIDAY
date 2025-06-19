@@ -82,7 +82,7 @@ if os.path.exists(LOGO_PATH):
 else:
     st.warning(f"Logo image not found at '{LOGO_PATH}'. Please ensure it's in the same directory as streamlit_app.py.")
 
-st.title('Project Friday')
+st.title('Project FRIDAY')
 st.markdown("Fringing Reef Identification and Detection Automation using Yolo11")
 
 uploaded_file = st.file_uploader("Choose an image...", type=['jpg', 'jpeg', 'png'])

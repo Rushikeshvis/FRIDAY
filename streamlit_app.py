@@ -139,9 +139,3 @@ if uploaded_file is not None:
 
     else:
         st.info("No coral species detected in the image based on the model's predictions.")
-
-st.markdown("""
----
-**Note on `coral_species`:**
-Ensure that the order of `coral_species` in this list exactly matches the class IDs that your `Yolo11_Best.pt` model was trained with. If your model's class ID 0 corresponds to a different coral than `Acanthastrea echinata`, the classification will be incorrect.
-""")

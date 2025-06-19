@@ -1,0 +1,203 @@
+Genus,Species,R,G,B,Common_Name,Color_Description,Depth_Range,Geographic_Distribution
+acanthastrea,echinata,255,140,0,Orange Cup Coral,Orange,5-30m,Indo-Pacific
+acanthastrea,echinata,254,141,1,Orange Cup Coral,Orangeish,6-31m,Indo-Pacific
+acropora,abrotanoides,255,228,181,Table Staghorn,Peach,5-25m,Indo-Pacific
+acropora,abrotanoides,254,229,182,Table Staghorn,Peachy,6-26m,Indo-Pacific
+acropora,cervicornis,255,255,224,Staghorn Coral,Cream,5-30m,Caribbean
+acropora,cervicornis,254,254,225,Staghorn Coral,Creamy,6-31m,Caribbean
+acropora,clathrata,255,218,185,Lattice Staghorn,Light Peach,5-25m,Indo-Pacific
+acropora,clathrata,254,219,186,Lattice Staghorn,Pale Peach,6-26m,Indo-Pacific
+acropora,humilis,255,255,0,Humble Staghorn,Yellow,3-20m,Indo-Pacific
+acropora,humilis,254,254,1,Humble Staghorn,Yellowish,4-21m,Indo-Pacific
+acropora,hyacinthus,255,20,147,Hyacinth Staghorn,Deep Pink,5-25m,Indo-Pacific
+acropora,hyacinthus,254,21,146,Hyacinth Staghorn,Deep Pinkish,6-26m,Indo-Pacific
+acropora,palmata,173,216,230,Elkhorn Coral,Light Blue,3-20m,Caribbean
+acropora,palmata,172,217,231,Elkhorn Coral,Pale Blue,4-21m,Caribbean
+acropora,prolifera,255,69,0,Proliferating Staghorn,Red Orange,3-15m,Caribbean
+acropora,prolifera,254,70,1,Proliferating Staghorn,Red Orangeish,4-16m,Caribbean
+agaricia,fragilis,255,255,224,Fragile Lettuce Coral,Cream,5-25m,Caribbean
+agaricia,fragilis,254,254,225,Fragile Lettuce Coral,Creamy,6-26m,Caribbean
+agaricia,lamarcki,255,228,181,Lamarck's Lettuce Coral,Peach,10-30m,Caribbean
+agaricia,lamarcki,254,229,182,Lamarck's Lettuce Coral,Peachy,11-31m,Caribbean
+astrea,curta,255,215,0,Short Star Coral,Golden,8-30m,Atlantic
+astrea,curta,254,216,1,Short Star Coral,Gold,9-31m,Atlantic
+balanophyllia,elegans,255,69,0,Orange Cup Coral,Red Orange,5-30m,Pacific
+balanophyllia,elegans,254,70,1,Orange Cup Coral,Red Orangeish,6-31m,Pacific
+bernardpora,stutchburyi,255,192,203,Stutchbury's Coral,Pink,5-25m,Indo-Pacific
+bernardpora,stutchburyi,254,193,202,Stutchbury's Coral,Pinkish,6-26m,Indo-Pacific
+blastomussa,omanensis,138,43,226,Oman Blastomussa,Purple,8-35m,Western Indian Ocean
+blastomussa,omanensis,139,42,225,Oman Blastomussa,Purplish,9-36m,Western Indian Ocean
+carijoa,riisei,255,255,0,Carijoa Coral,Yellow,5-30m,Atlantic
+carijoa,riisei,254,254,1,Carijoa Coral,Yellowish,6-31m,Atlantic
+cladocora,arbuscula,255,228,181,Tree Coral,Peach,10-40m,Mediterranean
+cladocora,arbuscula,254,229,182,Tree Coral,Peachy,11-41m,Mediterranean
+cladocora,caespitosa,255,215,0,Cluster Coral,Golden,5-30m,Mediterranean
+cladocora,caespitosa,254,216,1,Cluster Coral,Gold,6-31m,Mediterranean
+cladopsammia,gracilis,255,140,0,Graceful Coral,Orange,10-30m,Indo-Pacific
+cladopsammia,gracilis,254,141,1,Graceful Coral,Orangeish,11-31m,Indo-Pacific
+coeloseris,mayeri,255,255,224,Mayer's Coral,Cream,5-25m,Indo-Pacific
+coeloseris,mayeri,254,254,225,Mayer's Coral,Creamy,6-26m,Indo-Pacific
+corallium,rubrum,255,20,147,Red Coral,Deep Pink,10-40m,Mediterranean
+corallium,rubrum,254,21,146,Red Coral,Deep Pinkish,11-41m,Mediterranean
+coscinaraea,monile,255,215,0,Necklace Coral,Golden,5-30m,Indo-Pacific
+coscinaraea,monile,254,216,1,Necklace Coral,Gold,6-31m,Indo-Pacific
+culicia,tenella,139,69,19,Delicate Coral,Brown,8-35m,Indo-Pacific
+culicia,tenella,140,68,20,Delicate Coral,Brownish,9-36m,Indo-Pacific
+cycloseris,mokai,255,228,181,Mokai Disk Coral,Peach,10-30m,Indo-Pacific
+cycloseris,mokai,254,229,182,Mokai Disk Coral,Peachy,11-31m,Indo-Pacific
+cycloseris,vaughani,255,192,203,Vaughan's Disk Coral,Pink,8-25m,Indo-Pacific
+cycloseris,vaughani,254,193,202,Vaughan's Disk Coral,Pinkish,9-26m,Indo-Pacific
+dendrogyra,cylindrus,255,255,0,Pillar Coral,Yellow,3-20m,Caribbean
+dendrogyra,cylindrus,254,254,1,Pillar Coral,Yellowish,4-21m,Caribbean
+dendrophyllia,ramea,255,69,0,Ramea Coral,Red Orange,5-25m,Mediterranean
+dendrophyllia,ramea,254,70,1,Ramea Coral,Red Orangeish,6-26m,Mediterranean
+dichocoenia,stokesi,255,215,0,Stokes' Coral,Golden,10-30m,Caribbean
+dichocoenia,stokesi,254,216,1,Stokes' Coral,Gold,11-31m,Caribbean
+dichocoenia,stokesii,255,215,0,Stokes' Coral,Golden,10-30m,Caribbean
+dichocoenia,stokesii,254,216,1,Stokes' Coral,Gold,11-31m,Caribbean
+diploastrea,heliopora,255,255,224,Heliopora Coral,Cream,10-40m,Indo-Pacific
+diploastrea,heliopora,254,254,225,Heliopora Coral,Creamy,11-41m,Indo-Pacific
+dipsastraea,favus,255,69,0,Honeycomb Coral,Red Orange,5-30m,Indo-Pacific
+dipsastraea,favus,254,70,1,Honeycomb Coral,Red Orangeish,6-31m,Indo-Pacific
+dipsastraea,pallida,255,255,224,Pale Coral,Cream,8-30m,Indo-Pacific
+dipsastraea,pallida,254,254,225,Pale Coral,Creamy,9-31m,Indo-Pacific
+duncanopsammia,peltata,255,215,0,Duncan Coral,Golden,10-40m,Australia
+duncanopsammia,peltata,254,216,1,Duncan Coral,Gold,11-41m,Australia
+echinopora,hirsutissima,255,20,147,Very Hairy Coral,Deep Pink,8-35m,Indo-Pacific
+echinopora,hirsutissima,254,21,146,Very Hairy Coral,Deep Pinkish,9-36m,Indo-Pacific
+echinopora,lamellosa,50,205,50,Plate Coral,Green,8-30m,Indo-Pacific
+echinopora,lamellosa,51,204,51,Plate Coral,Greenish,9-31m,Indo-Pacific
+euphyllia,cristata,255,255,0,Cristate Coral,Yellow,5-25m,Indo-Pacific
+euphyllia,cristata,254,254,1,Cristate Coral,Yellowish,6-26m,Indo-Pacific
+euphyllia,glabrescens,255,20,147,Torch Coral,Deep Pink,10-40m,Indo-Pacific
+euphyllia,glabrescens,254,21,146,Torch Coral,Deep Pinkish,11-41m,Indo-Pacific
+eusmilia,fastigiata,255,255,224,Fastigiate Coral,Cream,10-40m,Caribbean
+eusmilia,fastigiata,254,254,225,Fastigiate Coral,Creamy,11-41m,Caribbean
+favia,fragum,255,215,0,Small Star Coral,Golden,5-30m,Caribbean
+favia,fragum,254,216,1,Small Star Coral,Gold,6-31m,Caribbean
+fungia,fungites,255,165,0,Mushroom Coral,Light Orange,8-30m,Indo-Pacific
+fungia,fungites,254,166,1,Mushroom Coral,Light Orangeish,9-31m,Indo-Pacific
+gardineroseris,planulata,255,228,181,Planulate Coral,Peach,8-30m,Indo-Pacific
+gardineroseris,planulata,254,229,182,Planulate Coral,Peachy,9-31m,Indo-Pacific
+goniastrea,stelligera,255,215,0,Star Coral,Golden,5-30m,Indo-Pacific
+goniastrea,stelligera,254,216,1,Star Coral,Gold,6-31m,Indo-Pacific
+goniopora,lobata,255,69,0,Lobed Goniopora,Red Orange,5-30m,Indo-Pacific
+goniopora,lobata,254,70,1,Lobed Goniopora,Red Orangeish,6-31m,Indo-Pacific
+heliopora,coerulea,50,205,50,Blue Coral,Green,10-40m,Indo-Pacific
+heliopora,coerulea,51,204,51,Blue Coral,Greenish,11-41m,Indo-Pacific
+helioseris,cucullata,255,215,0,Cowl Coral,Golden,10-40m,Caribbean
+helioseris,cucullata,254,216,1,Cowl Coral,Gold,11-41m,Caribbean
+herpolitha,limax,138,43,226,Slug Coral,Purple,8-35m,Indo-Pacific
+herpolitha,limax,139,42,225,Slug Coral,Purplish,9-36m,Indo-Pacific
+homophyllia,australis,255,255,224,Australian Homophyllia,Cream,10-40m,Australia
+homophyllia,australis,254,254,225,Australian Homophyllia,Creamy,11-41m,Australia
+hydnophora,exesa,255,228,181,Exesa Coral,Peach,10-40m,Indo-Pacific
+hydnophora,exesa,254,229,182,Exesa Coral,Peachy,11-41m,Indo-Pacific
+isophyllia,rigida,255,215,0,Rigid Isophyllia,Golden,10-40m,Caribbean
+isophyllia,rigida,254,216,1,Rigid Isophyllia,Gold,11-41m,Caribbean
+isophyllia,sinuosa,255,192,203,Wavy Isophyllia,Pink,10-40m,Caribbean
+isophyllia,sinuosa,254,193,202,Wavy Isophyllia,Pinkish,11-41m,Caribbean
+isopora,palifera,255,255,0,Palifera Coral,Yellow,10-40m,Indo-Pacific
+isopora,palifera,254,254,1,Palifera Coral,Yellowish,11-41m,Indo-Pacific
+leptastrea,purpurea,255,140,0,Purple Coral,Orange,5-25m,Indo-Pacific
+leptastrea,purpurea,254,141,1,Purple Coral,Orangeish,6-26m,Indo-Pacific
+leptoria,phrygia,255,215,0,Phrygian Coral,Golden,10-40m,Indo-Pacific
+leptoria,phrygia,254,216,1,Phrygian Coral,Gold,11-41m,Indo-Pacific
+leptoseris,mycetoseroides,255,255,224,Mushroom Plate Coral,Cream,10-40m,Indo-Pacific
+leptoseris,mycetoseroides,254,254,225,Mushroom Plate Coral,Creamy,11-41m,Indo-Pacific
+madracis,auretenra,255,255,0,Golden Madracis,Yellow,10-40m,Caribbean
+madracis,auretenra,254,254,1,Golden Madracis,Yellowish,11-41m,Caribbean
+madracis,decactis,255,69,0,Ten-rayed Madracis,Red Orange,10-40m,Caribbean
+madracis,decactis,254,70,1,Ten-rayed Madracis,Red Orangeish,11-41m,Caribbean
+meandrina,meandrites,255,215,0,Meandering Coral,Golden,10-40m,Caribbean
+meandrina,meandrites,254,216,1,Meandering Coral,Gold,11-41m,Caribbean
+merulina,scabricula,255,192,203,Scabrous Merulina,Pink,10-40m,Indo-Pacific
+merulina,scabricula,254,193,202,Scabrous Merulina,Pinkish,11-41m,Indo-Pacific
+montastraea,cavernosa,138,43,226,Great Star Coral,Purple,8-35m,Caribbean
+montastraea,cavernosa,139,42,225,Great Star Coral,Purplish,9-36m,Caribbean
+montipora,capitata,255,255,224,Capitate Montipora,Cream,10-40m,Indo-Pacific
+montipora,capitata,254,254,225,Capitate Montipora,Creamy,11-41m,Indo-Pacific
+montipora,flabellata,255,228,181,Fan-shaped Montipora,Peach,10-40m,Indo-Pacific
+montipora,flabellata,254,229,182,Fan-shaped Montipora,Peachy,11-41m,Indo-Pacific
+oculina,patagonica,255,215,0,Patagonian Oculina,Golden,10-40m,South Atlantic
+oculina,patagonica,254,216,1,Patagonian Oculina,Gold,11-41m,South Atlantic
+orbicella,annularis,255,255,0,Annular Orbicella,Yellow,10-40m,Caribbean
+orbicella,annularis,254,254,1,Annular Orbicella,Yellowish,11-41m,Caribbean
+orbicella,franksi,255,192,203,Franks' Orbicella,Pink,10-40m,Caribbean
+orbicella,franksi,254,193,202,Franks' Orbicella,Pinkish,11-41m,Caribbean
+oulophyllia,crispa,255,69,0,Crisp Oulophyllia,Red Orange,10-40m,Indo-Pacific
+oulophyllia,crispa,254,70,1,Crisp Oulophyllia,Red Orangeish,11-41m,Indo-Pacific
+pachyseris,rugosa,255,140,0,Rugose Plate Coral,Orange,10-40m,Indo-Pacific
+pachyseris,rugosa,254,141,1,Rugose Plate Coral,Orangeish,11-41m,Indo-Pacific
+pachyseris,speciosa,255,215,0,Showy Plate Coral,Golden,10-40m,Indo-Pacific
+pachyseris,speciosa,254,216,1,Showy Plate Coral,Gold,11-41m,Indo-Pacific
+paracyathus,stearnsii,255,255,224,Stearns' Cup Coral,Cream,10-40m,Pacific
+paracyathus,stearnsii,254,254,225,Stearns' Cup Coral,Creamy,11-41m,Pacific
+paragoniastrea,russelli,255,228,181,Russell's Star Coral,Peach,10-40m,Indo-Pacific
+paragoniastrea,russelli,254,229,182,Russell's Star Coral,Peachy,11-41m,Indo-Pacific
+paramontastraea,peresi,255,69,0,Peres' Coral,Red Orange,10-40m,Indo-Pacific
+paramontastraea,peresi,254,70,1,Peres' Coral,Red Orangeish,11-41m,Indo-Pacific
+pavona,clavus,255,192,203,Club Pavona,Pink,10-40m,Indo-Pacific
+pavona,clavus,254,193,202,Club Pavona,Pinkish,11-41m,Indo-Pacific
+pavona,duerdeni,138,43,226,Duerden's Pavona,Purple,10-40m,Indo-Pacific
+pavona,duerdeni,139,42,225,Duerden's Pavona,Purplish,11-41m,Indo-Pacific
+pavona,maldivensis,255,255,0,Maldivian Pavona,Yellow,10-40m,Maldives
+pavona,maldivensis,254,254,1,Maldivian Pavona,Yellowish,11-41m,Maldives
+pavona,varians,255,20,147,Variable Pavona,Deep Pink,10-40m,Indo-Pacific
+pavona,varians,254,21,146,Variable Pavona,Deep Pinkish,11-41m,Indo-Pacific
+pavona,venosa,173,216,230,Veined Pavona,Light Blue,10-40m,Indo-Pacific
+pavona,venosa,172,217,231,Veined Pavona,Pale Blue,11-41m,Indo-Pacific
+platygyra,daedalea,50,205,50,Labyrinth Coral,Green,10-40m,Indo-Pacific
+platygyra,daedalea,51,204,51,Labyrinth Coral,Greenish,11-41m,Indo-Pacific
+plerogyra,sinuosa,255,140,0,Grape Coral,Orange,10-40m,Indo-Pacific
+plerogyra,sinuosa,254,141,1,Grape Coral,Orangeish,11-41m,Indo-Pacific
+plesiastrea,versipora,255,215,0,Versatile Coral,Golden,10-40m,Indo-Pacific
+plesiastrea,versipora,254,216,1,Versatile Coral,Gold,11-41m,Indo-Pacific
+pocillopora,aliciae,255,255,224,Alicia's Cauliflower Coral,Cream,10-40m,Indo-Pacific
+pocillopora,aliciae,254,254,225,Alicia's Cauliflower Coral,Creamy,11-41m,Indo-Pacific
+pocillopora,damicornis,255,228,181,Cauliflower Coral,Peach,10-40m,Indo-Pacific
+pocillopora,damicornis,254,229,182,Cauliflower Coral,Peachy,11-41m,Indo-Pacific
+pocillopora,grandis,255,218,185,Grand Cauliflower Coral,Light Peach,10-40m,Indo-Pacific
+pocillopora,grandis,254,219,186,Grand Cauliflower Coral,Pale Peach,11-41m,Indo-Pacific
+pocillopora,verrucosa,255,192,203,Warty Cauliflower Coral,Pink,10-40m,Indo-Pacific
+pocillopora,verrucosa,254,193,202,Warty Cauliflower Coral,Pinkish,11-41m,Indo-Pacific
+porites,astreoides,138,43,226,Mustard Hill Coral,Purple,10-40m,Caribbean
+porites,astreoides,139,42,225,Mustard Hill Coral,Purplish,11-41m,Caribbean
+porites,compressa,255,255,0,Thin Finger Coral,Yellow,10-40m,Hawaii
+porites,compressa,254,254,1,Thin Finger Coral,Yellowish,11-41m,Hawaii
+porites,cylindrica,255,20,147,Cylindrical Porites,Deep Pink,10-40m,Indo-Pacific
+porites,cylindrica,254,21,146,Cylindrical Porites,Deep Pinkish,11-41m,Indo-Pacific
+porites,lobata,173,216,230,Lobed Porites,Light Blue,10-40m,Indo-Pacific
+porites,lobata,172,217,231,Lobed Porites,Pale Blue,11-41m,Indo-Pacific
+psammocora,contigua,50,205,50,Adjacent Psammocora,Green,10-40m,Indo-Pacific
+psammocora,contigua,51,204,51,Adjacent Psammocora,Greenish,11-41m,Indo-Pacific
+pseudodiploria,clivosa,255,140,0,Knobby Brain Coral,Orange,10-40m,Caribbean
+pseudodiploria,clivosa,254,141,1,Knobby Brain Coral,Orangeish,11-41m,Caribbean
+sandalolitha,robusta,255,215,0,Robust Sand Coral,Golden,10-40m,Indo-Pacific
+sandalolitha,robusta,254,216,1,Robust Sand Coral,Gold,11-41m,Indo-Pacific
+scolymia,cubensis,255,255,224,Cuban Scolymia,Cream,10-40m,Caribbean
+scolymia,cubensis,254,254,225,Cuban Scolymia,Creamy,11-41m,Caribbean
+seriatopora,hystrix,255,228,181,Needle Coral,Peach,10-40m,Indo-Pacific
+seriatopora,hystrix,254,229,182,Needle Coral,Peachy,11-41m,Indo-Pacific
+siderastrea,radians,255,218,185,Starlet Coral,Light Peach,10-40m,Caribbean
+siderastrea,radians,254,219,186,Starlet Coral,Pale Peach,11-41m,Caribbean
+siderastrea,siderea,255,192,203,Massive Starlet Coral,Pink,10-40m,Caribbean
+siderastrea,siderea,254,193,202,Massive Starlet Coral,Pinkish,11-41m,Caribbean
+sinularia,brassica,138,43,226,Cabbage Coral,Purple,10-40m,Indo-Pacific
+sinularia,brassica,139,42,225,Cabbage Coral,Purplish,11-41m,Indo-Pacific
+stephanocoenia,intersepta,255,255,0,Blushing Star Coral,Yellow,10-40m,Caribbean
+stephanocoenia,intersepta,254,254,1,Blushing Star Coral,Yellowish,11-41m,Caribbean
+stylocoeniella,armata,255,20,147,Armored Stylocoeniella,Deep Pink,10-40m,Indo-Pacific
+stylocoeniella,armata,254,21,146,Armored Stylocoeniella,Deep Pinkish,11-41m,Indo-Pacific
+stylophora,pistillata,173,216,230,Club-tipped Coral,Light Blue,10-40m,Indo-Pacific
+stylophora,pistillata,172,217,231,Club-tipped Coral,Pale Blue,11-41m,Indo-Pacific
+trachyphyllia,geoffroyi,50,205,50,Geoffroy's Brain Coral,Green,10-40m,Indo-Pacific
+trachyphyllia,geoffroyi,51,204,51,Geoffroy's Brain Coral,Greenish,11-41m,Indo-Pacific
+tubastraea,aurea,255,140,0,Golden Sun Coral,Orange,10-40m,Indo-Pacific
+tubastraea,aurea,254,141,1,Golden Sun Coral,Orangeish,11-41m,Indo-Pacific
+tubastraea,diaphana,255,215,0,Diaphanous Sun Coral,Golden,10-40m,Indo-Pacific
+tubastraea,diaphana,254,216,1,Diaphanous Sun Coral,Gold,11-41m,Indo-Pacific
+tubastraea,micranthus,255,255,224,Black Sun Coral,Cream,10-40m,Indo-Pacific
+tubastraea,micranthus,254,254,225,Black Sun Coral,Creamy,11-41m,Indo-Pacific
+turbinaria,reniformis,255,228,181,Reniform Turbinaria,Peach,10-40m,Indo-Pacific
+turbinaria,reniformis,254,229,182,Reniform Turbinaria,Peachy,11-41m,Indo-Pacific
